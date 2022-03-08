@@ -17,7 +17,7 @@ for i in range(6): #6パック剥く
     rorm=["m","r"]#レアと神話どちらが出るかを選ぶ。確率は1:6.4らしい。https://mtg-jp.com/reading/mm/0034191/
     w=[10,64]
     R = random.choices(rorm, weights = w)
-    print(R)
+    #print(R)
 
     Sealed=[]
     Sealed.append(random.choices(comon, k=10))#コモン10枚アンコ3枚レア1枚
